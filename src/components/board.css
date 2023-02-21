@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.landscape {
+    border: 1px solid grey;
+    background-color: rgb(255, 174, 0);
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.hidden {
+    background-color: black;
+}
+
+.board {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
